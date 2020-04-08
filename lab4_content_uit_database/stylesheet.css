@@ -1,0 +1,115 @@
+*{
+    box-sizing: border-box;
+    font-family:'Archivo', sans-serif;
+}
+body{
+    background-color: rgb(15, 15, 15);
+    width: 60%;
+    margin: 0 auto;
+    color: white;
+}
+
+/* header */
+
+#header{
+    top: 0;
+    text-align: left;
+    position: sticky;
+    z-index: 1;
+    background-color: red;
+    border: 1px solid red;
+    height: 2em;
+    width: 100%;
+    color: white;
+    font-size: 2em;
+    line-height: 1em;
+    box-shadow: 0 4px 4px -2px black;
+}
+
+/**/
+
+
+/*first dropdown menu*/
+
+#menu1{
+    font-size: 2rem;
+    line-height: 4rem;
+    margin-left: 1em;
+    cursor: pointer;
+    z-index: 2;
+}
+
+#menu1:hover{
+    color: grey;
+}
+.dropdownmenu{
+    position: relative;
+    display: inline-block;
+}
+
+.dd-content{
+    display: none;
+    position: absolute;
+    z-index: 3;
+    min-width: 6em;
+    padding: 0;
+    overflow: auto;
+    background-color: gray;
+}
+
+.dd-content>ul{
+    line-height: 2em;
+    padding: 0;
+    margin: 0;
+    line-height: 3rem;
+    background-color: rgb(48, 48, 48);
+}
+
+.dd-content>ul>li{
+    list-style: none;
+    border: 1px solid rgb(48, 48, 48);
+    padding: 0;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(48, 48, 48);
+    color: white;
+    display: block;
+}
+
+.dd-content>ul>li:hover{
+    background-color: grey;
+}
+
+.show{
+    display: block;
+}
+
+/**/
+
+/* footer */ 
+
+#footer{
+    z-index: 1;
+    background-color: red;
+    border: 1px solid red;
+    height: 2em;
+    width: 100%;
+    color: white;
+    text-align: center;
+    line-height: 2rem
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+#textbox{
+    margin:2%;
+    font-size: 1.2em;
+}
+img{
+    width: 30em;
+    height: auto;
+    margin: 1%;
+    float: left;
+}
